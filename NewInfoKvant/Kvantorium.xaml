@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.Kvantorium"
+             Title="Kvantorium" BackgroundColor="White">
+
+   <Grid>
+        <Image Source="fonnews.jpg" WidthRequest="1350" Margin="0,0,0,0"/>
+        <!--Панель навигации-->
+        <Border  BackgroundColor="DeepSkyBlue" WidthRequest="235" Stroke="DeepSkyBlue" Opacity="0.5" HeightRequest="800" Margin="-1000,0,0,0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="1,0"/>
+            </Border.Shadow>
+        </Border>
+
+        <!--основной макет раздела-->
+       
+       
+       <!--Программы-->
+        <Border  BackgroundColor="#124499" WidthRequest="400" HeightRequest="355" Margin="-330,265,0,0" Opacity="0.9"  StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="2">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0"/>
+            </Border.Shadow>
+            <Grid Margin="0,20,0,0">
+                <Label Text="БЮДЖЕТНЫЕ И" FontFamily="Bank" FontSize="24" Margin="20,10,0,0" TextColor="White"/>
+                <Label Text="ВНЕБЮДЖЕТНЫЕ" FontFamily="Bank" FontSize="24" Margin="155,35,0,0" TextColor="White"/>
+                <Label Text="НАПРАВЛЕНИЯ" FontFamily="Bank" FontSize="24" Margin="100,70,0,0" TextColor="White"/>
+            </Grid>
+            
+        </Border>
+        <Image Source="programm.png" HeightRequest="400" WidthRequest="400" Margin="0,403,220,0"/>
+
+
+
+        <!--СОЦСЕТИ-->
+        <Grid Margin="560,20,0,0" >
+            <Border WidthRequest="430" HeightRequest="110" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="#124499" Opacity="0.9" Stroke="White" StrokeThickness="2">
+                <Border.Shadow>
+                    <Shadow Brush="Black" Offset="0,0"/>
+                </Border.Shadow>
+                <VerticalStackLayout>
+                        <Label Text="ИНФОРМАЦИОННЫЕ РЕСУРСЫ И" FontFamily="Bank" FontSize="17" Margin="20,10,0,0" TextColor="White"/>
+                        <Label Text="СОЦСЕТИ" FontFamily="Bank" FontSize="17" Margin="20,0,0,0" TextColor="White"/>
+                    <HorizontalStackLayout Spacing="40" Margin="20,5,0,0">
+                        <Image Source="vklogo.png" HeightRequest="35" WidthRequest="40"/>
+                        <Image Source="tglogo.png" HeightRequest="35" WidthRequest="40"/>
+                        <Image Source="navi.png" HeightRequest="40" WidthRequest="40"/>
+                        <Image Source="whitelogo.png" HeightRequest="40" WidthRequest="40"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+                </Border>
+                <Image Source="socialmedia.png" Margin="325,-60,0,0" HeightRequest="150" WidthRequest="180"/>
+            <Button WidthRequest="430" HeightRequest="110" CornerRadius="20" BackgroundColor="Transparent" Clicked="Button_Clicked_3"/>
+        </Grid>
+       
+         <!--Сотрудники-->
+        <!--<Button  BackgroundColor="#124499" WidthRequest="430" HeightRequest="250" Margin="560,-450,0,0"  CornerRadius="20" Text="Сотрудники"/>-->
+
+      <Grid>
+            <Border Stroke="White" StrokeThickness="2"  WidthRequest="430" HeightRequest="250" Margin="560,-450,0,0" BackgroundColor="#124499" Opacity="0.9"  StrokeShape="RoundRectangle 20,20,20,20">
+                <Border.Shadow>
+                    <Shadow Brush="Black" Offset="0,0"/>
+                </Border.Shadow>
+                <Grid>
+                    <Label Text="РУКОВОДСТВО И" FontFamily="Bank" FontSize="30" Margin="20,10,0,0" TextColor="White"/>
+                    <Label Text="СОТРУДНИКИ" FontFamily="Bank" FontSize="30" Margin="185,35,0,0" TextColor="White"/>
+                    
+                </Grid>
+
+            </Border>
+        <Image Source="sotr.png"  WidthRequest="390" HeightRequest="400" Margin="420,0,0,369" Rotation="-1"/>
+     </Grid>
+       
+        <!--Другие кванториумы-->
+        <Border  BackgroundColor="#124499" Opacity="0.9" WidthRequest="430" HeightRequest="200" Margin="560,420,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="2">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0"/>
+            </Border.Shadow>
+            <Grid>
+                <Image Source="kvantotiumlogo.png" WidthRequest="90" HeightRequest="90" Margin="-250,0,0,0" />
+                <Image Source="kvantotiumlogo.png" WidthRequest="90" HeightRequest="90" Margin="0,0,0,0" />
+				<Image Source="kvantotiumlogo.png" WidthRequest="90" HeightRequest="90" Margin="250,0,0,0" />
+
+				<Label Text="ДРУГИЕ КВАНТОРИУМЫ" FontFamily="Bank" FontSize="25" TextColor="White" Margin="45,15,0,0"/>
+                <Label Text="КВАНТОРИУМ " FontFamily="Goth" FontSize="17" TextColor="White" Margin="38,150,0,0"/>
+                <Label Text="МОБИЛЬНЫЙ " FontFamily="Goth" FontSize="17" TextColor="White" Margin="165,150,0,0"/>
+                <Label Text="КООРДИНАЦИОННЫЙ" FontFamily="Goth" FontSize="14" TextColor="White" Margin="278,150,0,0"/>
+                <Label Text="ГАЗ" FontFamily="Goth" FontSize="17" TextColor="White" Margin="75,170,0,0"/>
+                <Label Text="КВАНТОРИУМ " FontFamily="Goth" FontSize="17" TextColor="White" Margin="162,169,0,0"/>
+                <Label Text="ЦЕНТР " FontFamily="Goth" FontSize="14" TextColor="White" Margin="318,170,0,0"/>
+
+				
+			</Grid>
+        </Border>
+
+
+        <!--<Button  BackgroundColor="#124499" WidthRequest="455" HeightRequest="300" Margin="-330,-400,0,0"  CornerRadius="50" Text="Кванториумы"/>-->
+       
+      <!--КВАНТУМЫ-->
+        <Border WidthRequest="400" HeightRequest="280" Margin="-330,-420,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="2" BackgroundColor="#124499" Opacity="0.9" >
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0"/>
+            </Border.Shadow>
+            <Grid>
+                <Image Source="englogod.png" WidthRequest="100" HeightRequest="100" Margin="-300,0,0,0"/>
+                <Image Source="mathlogod.png" WidthRequest="100" HeightRequest="100" Margin="-300,-190,0,0"/>
+                <Image Source="medialogod.png" WidthRequest="120" HeightRequest="120" Margin="-100,-190,0,0"/>
+                 <Label Text="КВАНТУМЫ" FontSize="30" TextColor="White" FontFamily="Bank" Margin="110,120,0,0"/>
+                <Image Source="nanologod.png" WidthRequest="120" HeightRequest="120" Margin="100,-190,0,0"/>
+                <Image Source="itlogod.png" WidthRequest="130" HeightRequest="130" Margin="290,-185,0,0"/>
+                <Image Source="vrlogod.png" WidthRequest="130" HeightRequest="130" Margin="295,-10,0,0"/>
+                <Image Source="robologod.png" WidthRequest="120" HeightRequest="120" Margin="-300,190,0,0"/>
+                <Image Source="biologod.png" WidthRequest="150" HeightRequest="150" Margin="-100,180,0,0"/>
+                <Image Source="chesslogod.png" WidthRequest="100" HeightRequest="100" Margin="100,190,0,0"/>
+                <Image Source="hitechlogod.png" WidthRequest="100" HeightRequest="100" Margin="300,200,0,0"/>
+              </Grid>
+           </Border>
+
+       <!--кнопки панели навигации-->
+        <Grid>
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="Green" StrokeThickness="1.5" Stroke="White" Margin="-895,0,0,0">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent"  StrokeThickness="2" Stroke="White">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="vopros9.png" HeightRequest="42" WidthRequest="45" Margin="-60,-60,0,0"  Rotation="140" Opacity="1"/>
+                        <Image Source="vopros8.png" HeightRequest="55" WidthRequest="55" Margin="-50,50,0,0"  Rotation="-12"  Opacity="1"/>
+                        <Image Source="vopros10.png" HeightRequest="500" WidthRequest="50" Margin="65,60,0,0"  Rotation="-50" Opacity="1"/>
+                        <Image Source="vopros7.png" HeightRequest="50" WidthRequest="100" Margin="40,-50,0,0"  Rotation="20" Opacity="1"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button  HeightRequest="120" WidthRequest="120" CornerRadius="25" Margin="-895,0,0,0" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+        </Grid>
+
+        <Grid Margin="-895,-280,0,0">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#e7671b" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent"  StrokeThickness="2" Stroke="White">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="tehnostrelkalogo.png" HeightRequest="57" WidthRequest="59" Margin="-62,-45,0,0"  Rotation="140" Opacity="1"/>
+                        <Image Source="icon.png" HeightRequest="40" WidthRequest="40" Margin="-40,50,0,0"  Rotation="-12"  Opacity="1"/>
+                        <Image Source="navi.png" HeightRequest="500" WidthRequest="50" Margin="60,50,0,0"  Rotation="-50" Opacity="1"/>
+                        <Image Source="iconevent.png" HeightRequest="50" WidthRequest="60" Margin="55,-60,0,0"  Rotation="20" Opacity="1"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button  HeightRequest="120" WidthRequest="120" CornerRadius="25" Margin="0,0,0,0" BackgroundColor="Transparent" Clicked="Button_Clicked_1"/>
+        </Grid>
+
+        <Grid Margin="-895,-560,0,0">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#DA0B15" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent" StrokeThickness="2" Stroke="White" Opacity="0.9">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="vrlogod.png" HeightRequest="70" WidthRequest="70" Margin="0,40,-50,0" Rotation="70" />
+                        <Image Source="homey.png" HeightRequest="90" WidthRequest="90" Margin="0,0,0,0">
+                            <Image.Shadow>
+                                <Shadow Brush="Black" Offset="0,0" Radius="20"/>
+                            </Image.Shadow>
+                        </Image>
+                        <Image Source="whitelogo.png" HeightRequest="50" WidthRequest="50" Margin="0,60,80,0" Rotation="30"/>
+                        <Image Source="vopros8.png" HeightRequest="50" WidthRequest="50" Margin="0,-70,60,0" Rotation="330"/>
+                        <Image Source="ikarlogo.png" HeightRequest="60" WidthRequest="60" Margin="80,-30,0,10" Rotation="50"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" BackgroundColor="Transparent" Margin="0,0,0,0" Clicked="Button_Clicked_2"/>
+        </Grid>
+
+        <!--Логотип на панели навигации-->
+        <Image Source="whitelogo.png" Margin="-895,570,0,0" HeightRequest="100" WidthRequest="100"/>
+
+    </Grid>
+</ContentPage>

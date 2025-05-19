@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.AppKvantPage"
+             Title="AppKvantPage" BackgroundImageSource="kvantoriumtest.jpg">
+
+    <Grid>
+        <Button HeightRequest="120" WidthRequest="120" Margin="0,-567,898,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked"/>
+        <Button HeightRequest="120" WidthRequest="120" Margin="0,0,898,280" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_1"/>
+        <Button HeightRequest="120" WidthRequest="120" Margin="0,0,897,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_2"/>
+        <Button WidthRequest="400" HeightRequest="280" Margin="0,0,330,420" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_3"/>
+        <Button WidthRequest="430" HeightRequest="250" CornerRadius="25" Margin="560,0,0,453" BackgroundColor="Transparent" Clicked="Button_Clicked_4"/>
+        <Button WidthRequest="400" HeightRequest="355" CornerRadius="25" Margin="0,265,330,0" BackgroundColor="Transparent" Clicked="Button_Clicked_5"/>
+        <Button WidthRequest="430" HeightRequest="110" CornerRadius="25" Margin="560,20,0,0" BackgroundColor="Transparent" Clicked="Button_Clicked_6"/>
+    </Grid>
+</ContentPage>

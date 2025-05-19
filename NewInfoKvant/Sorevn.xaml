@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.Sorevn"
+             Title="Sorevn">
+    
+    <Grid>
+
+<Image Source="fonnews" WidthRequest="1350" Margin="0,0,0,0"/>
+
+        
+
+        <Border WidthRequest="420" HeightRequest="240" Margin="-300,0,0,0"  StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+            </Border.Shadow>
+            <Grid>
+                <ScrollView Orientation="Horizontal" >
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="zzzz.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="580"/>
+                        <Image Source="seichas.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="430"/>
+                        <Image Source="seichasii.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="660"/>
+                    </StackLayout>
+                </ScrollView>
+                <Label Text="Сейчас" TextColor="White" FontFamily="Goth" FontSize="29" Margin="300,190,0,0">
+                    <Label.Shadow>
+                        <Shadow Brush="Black" Offset="0,0"/>
+                    </Label.Shadow>
+                </Label>
+            </Grid>
+        </Border>
+        <Border WidthRequest="420" HeightRequest="240" Margin="-300,490,0,0"  StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+            </Border.Shadow>
+            <Grid>
+                <ScrollView Orientation="Horizontal" x:Name="scroll">
+                    <StackLayout Orientation="Horizontal" x:Name="stackl">
+                        <Image Source="iai.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="430"/>
+                        <Image Source="biloi.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="580"/>
+                        <Image Source="biloii.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="660"/>
+                    </StackLayout>
+                </ScrollView>
+                <Label Text="Прошло" TextColor="White" FontFamily="Goth" FontSize="29" Margin="300,190,0,0">
+                    <Label.Shadow>
+                        <Shadow Brush="Black" Offset="0,0"/>
+                    </Label.Shadow>
+                </Label>
+            </Grid>
+        </Border>
+        <Border WidthRequest="420" HeightRequest="240" Margin="-300,-490,0,0"  StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+            </Border.Shadow>
+            <Grid>
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="steam.jpg" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="430"/>
+                        <Image Source="budeti.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="580"/>
+                        <Image Source="budetii.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="660"/>
+                    </StackLayout>
+                </ScrollView>
+                <Label Text="Скоро" TextColor="White" FontFamily="Goth" FontSize="29" Margin="300,190,0,0">
+                    <Label.Shadow>
+                        <Shadow Brush="Black" Offset="0,0"/>
+                    </Label.Shadow>
+                </Label>
+            </Grid>
+        </Border>
+
+        <Border BackgroundColor="#124499" WidthRequest="220" HeightRequest="240" Margin="350,-490,0,0"  StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+       <Border.Shadow>
+           <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+       </Border.Shadow>
+       <Grid>
+           <Image Source="popz.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
+           <Label Text="Подать заявку" TextColor="White" FontFamily="Goth" FontSize="29" Margin="15,190,0,0">
+               <Label.Shadow>
+                   <Shadow Brush="Black" Offset="0,0"/>
+               </Label.Shadow>
+           </Label>
+       </Grid>
+   </Border>
+
+        <Border BackgroundColor="#124499" WidthRequest="220" HeightRequest="240" Margin="350,0,0,0"  StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+       <Border.Shadow>
+           <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+       </Border.Shadow>
+       <Grid>
+               <Image Source="yyy.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="180" HeightRequest="180"/>
+           <Label Text="Участники" TextColor="White" FontFamily="Goth" FontSize="29" Margin="45,190,0,0">
+               <Label.Shadow>
+                   <Shadow Brush="Black" Offset="0,0"/>
+               </Label.Shadow>
+           </Label>
+       </Grid>
+   </Border>
+
+        <Border  BackgroundColor="#124499" WidthRequest="220" HeightRequest="240" Margin="350,490,0,0"  StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+       <Border.Shadow>
+           <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+       </Border.Shadow>
+       <Grid>
+                <Image Source="zzz.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
+           <Label Text="Результаты" TextColor="White" FontFamily="Goth" FontSize="29" Margin="40,190,0,0">
+               <Label.Shadow>
+                   <Shadow Brush="Black" Offset="0,0"/>
+               </Label.Shadow>
+           </Label>
+       </Grid>
+   </Border>
+
+
+
+        <Border BackgroundColor="#124499" WidthRequest="220" HeightRequest="270" Margin="800,460,0,0"  StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+           <Border.Shadow>
+               <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+           </Border.Shadow>
+           <Grid>
+               <Image Source="rezultati.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
+               <Label Text="" TextColor="White" FontFamily="Goth" FontSize="29" Margin="95,90,0,0">
+                   <Label.Shadow>
+                       <Shadow Brush="Black" Offset="0,0"/>
+                   </Label.Shadow>
+               </Label>
+           </Grid>
+       </Border>
+
+
+        <Border BackgroundColor="#124499" WidthRequest="220" HeightRequest="110" Margin="800,70,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="2">
+            <Grid>
+                <Image Source="vklogo.png" HeightRequest="35" WidthRequest="40" Margin="0,0,150,0"/>
+                <Image Source="tglogo.png" HeightRequest="35" WidthRequest="40" Margin="0,0,50,0"/>
+                <Image Source="navi.png" HeightRequest="40" WidthRequest="40" Margin="30,0,0,0"/>
+                <Image Source="whitelogo.png" HeightRequest="40" WidthRequest="40" Margin="130,0,0,0"/>
+            </Grid>
+        </Border>
+        <Button  BackgroundColor="Transparent" WidthRequest="220" HeightRequest="110" Margin="800,70,0,0"  CornerRadius="25"
+        Clicked="Button_Clicked"/>
+
+        <Border HeightRequest="340" WidthRequest="220" Margin="800,-390,0,0" StrokeShape="RoundRectangle 50,50,50,50" Stroke="White" StrokeThickness="3">
+    <Border.Shadow>
+        <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+    </Border.Shadow>
+    <CarouselView x:Name="carouselView" ItemsSource="{Binding Items}" CurrentItem="{Binding CurrentItem}">
+        <CarouselView.ItemTemplate>
+            <DataTemplate>
+                <Grid>
+                    <Image Source="{Binding ImageSource}" Aspect="AspectFill" HeightRequest="340" WidthRequest="400"/>
+                    <Label Text="{Binding Title}" HorizontalOptions="Center"  FontFamily="Goth" VerticalOptions="Center" TextColor="White" FontAttributes="Bold" FontSize="50" Margin="20,280,20,0">
+                        <Label.Shadow>
+                            <Shadow Brush="Black" Offset="0,0"/>
+                        </Label.Shadow>
+                    </Label>
+                </Grid>
+            </DataTemplate>
+        </CarouselView.ItemTemplate>
+    </CarouselView>
+</Border>
+        <Button  BackgroundColor="#124499" WidthRequest="215" HeightRequest="100" Margin="800,-160,0,0" FontSize="35" FontFamily="Goth" CornerRadius="50" Text="фото архив"/>
+
+   
+    
+<!--Боковая панель навигации-->
+<Border  BackgroundColor="DeepSkyBlue" WidthRequest="235" Stroke="DeepSkyBlue" Opacity="0.5" HeightRequest="800" Margin="-1000,0,0,0">
+    <Border.Shadow>
+        <Shadow Brush="Black" Offset="1,0"/>
+    </Border.Shadow>
+</Border>
+
+ <!--Кнопки боковой панели навигации-->
+        <Grid Margin="-895,0,0,560">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#e7671b" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent"  StrokeThickness="2" Stroke="White">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="tehnostrelkalogo.png" HeightRequest="57" WidthRequest="59" Margin="-62,-45,0,0"  Rotation="140" Opacity="1"/>
+                        <Image Source="icon.png" HeightRequest="40" WidthRequest="40" Margin="-40,50,0,0"  Rotation="-12"  Opacity="1"/>
+                        <Image Source="navi.png" HeightRequest="500" WidthRequest="50" Margin="60,50,0,0"  Rotation="-50" Opacity="1"/>
+                        <Image Source="iconevent.png" HeightRequest="50" WidthRequest="60" Margin="55,-60,0,0"  Rotation="20" Opacity="1"/>
+                        <Image Source="retu.png" HeightRequest="60" WidthRequest="60" Margin="0,0,0,0" Opacity="0.8"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button  HeightRequest="120" WidthRequest="120" CornerRadius="25" Margin="0,0,0,0" BackgroundColor="Transparent" Clicked="Button_Clicked_1"/>
+        </Grid>
+
+    
+<!--Логотип на панели навигации-->
+ <Image Source="whitelogo.png" Margin="-895,570,0,0" HeightRequest="100" WidthRequest="100"/>
+
+
+
+</Grid>
+    
+
+</ContentPage>

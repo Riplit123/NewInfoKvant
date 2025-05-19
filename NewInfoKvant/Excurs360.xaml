@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.Excurs360"
+             Title="Excurs360">
+<Grid>
+
+
+        <WebView HeightRequest="1100" WidthRequest="900" x:Name="foto"  Margin="130,-300,0,0"/>
+        <!--кнопки панели навигации-->
+    
+       <Border  BackgroundColor="DeepSkyBlue" WidthRequest="235" Stroke="DeepSkyBlue" Opacity="0.8" HeightRequest="800" Margin="-1000,0,0,0">
+       <Border.Shadow>
+           <Shadow Brush="Black" Offset="1,0"/>
+       </Border.Shadow>
+     </Border>
+ 
+    <!--Логотип на панели навигации-->
+    <Image Source="whitelogo.png" Margin="-895,570,0,0" HeightRequest="100" WidthRequest="100"/>
+
+        <Grid Margin="-895,0,0,560">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#e7671b" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent"  StrokeThickness="2" Stroke="White">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="tehnostrelkalogo.png" HeightRequest="57" WidthRequest="59" Margin="-62,-45,0,0"  Rotation="140" Opacity="1"/>
+                        <Image Source="icon.png" HeightRequest="40" WidthRequest="40" Margin="-40,50,0,0"  Rotation="-12"  Opacity="1"/>
+                        <Image Source="navi.png" HeightRequest="500" WidthRequest="50" Margin="60,50,0,0"  Rotation="-50" Opacity="1"/>
+                        <Image Source="iconevent.png" HeightRequest="50" WidthRequest="60" Margin="55,-60,0,0"  Rotation="20" Opacity="1"/>
+                        <Image Source="retu.png" HeightRequest="60" WidthRequest="60" Margin="0,0,0,0" Opacity="0.8"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button  HeightRequest="120" WidthRequest="120" CornerRadius="25" Margin="0,0,0,0" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+        </Grid>
+
+
+  </Grid>
+
+</ContentPage>

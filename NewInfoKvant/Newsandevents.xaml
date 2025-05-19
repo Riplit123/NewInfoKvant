@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.Newsandevents"
+             Title="Newsandevents" BackgroundColor="White">
+
+
+    <Grid>
+        <Image Source="fonnews" WidthRequest="1350" Margin="0,0,0,0"/>
+        
+        <!--Боковая панель навигации-->
+        <Border  BackgroundColor="DeepSkyBlue" WidthRequest="235" Stroke="DeepSkyBlue" Opacity="0.5" HeightRequest="800" Margin="-1000,0,0,0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="1,0"/>
+            </Border.Shadow>
+        </Border>
+
+
+        <!--Блок главных новостей-->
+        <Border HeightRequest="400" WidthRequest="570" Margin="-155,0,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+            </Border.Shadow>
+            <CarouselView x:Name="carouselView" ItemsSource="{Binding Items}" CurrentItem="{Binding CurrentItem}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Image Source="{Binding ImageSource}" Aspect="AspectFill"/>
+                            <Label Text="{Binding Title}" HorizontalOptions="Center"  FontFamily="Goth" VerticalOptions="Center" TextColor="White" FontAttributes="Bold" FontSize="50" Margin="20,280,20,0">
+                                <Label.Shadow>
+                                    <Shadow Brush="Black" Offset="0,0"/>
+                                </Label.Shadow>
+                            </Label>
+                        </Grid>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </Border>
+        <!--<Button BackgroundColor="red" HeightRequest="200" WidthRequest="200" x:Name="autoScrollButton" Text="Auto Scroll" Clicked="autoScrollButton_Clicked" IsVisible="false"/>-->
+        <!---->
+
+        <!--Верхние кнопки-->
+        <Border HeightRequest="130" WidthRequest="280" Margin="-450,-560,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+            </Border.Shadow>
+            <Grid>
+                <Image Source="merop.jpg" Aspect="AspectFill" Margin="0,-20,0,0"/>
+                <Label Text="Мероприятия" TextColor="White" FontFamily="Goth" FontSize="29" Margin="95,90,0,0">
+                    <Label.Shadow>
+                        <Shadow Brush="Black" Offset="0,0"/>
+                    </Label.Shadow>
+                </Label>
+            </Grid>
+        </Border>
+        <Button HeightRequest="130" WidthRequest="280" Margin="-450,-560,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_1"/>
+
+        <Border  WidthRequest="280" HeightRequest="130" Margin="135,-560,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+            </Border.Shadow>
+            <Grid>
+                <Image Source="sorev.jpg" Aspect="AspectFill" Margin="0,-20,0,0"/>
+                <Label Text="Соревнования" TextColor="White" FontFamily="Goth" FontSize="29" Margin="80,90,0,0">
+                    <Label.Shadow>
+                        <Shadow Brush="Black" Offset="0,0"/>
+                    </Label.Shadow>
+                </Label>
+            </Grid>
+        </Border>
+        <Button WidthRequest="280" HeightRequest="130" Margin="135,-560,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_2"/>
+
+        <Border  WidthRequest="280" HeightRequest="130" Margin="715,-560,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+            </Border.Shadow>
+            <Grid>
+                <Image Source="exk.jpg" Aspect="AspectFill" Margin="0,-20,0,0"/>
+                <Label Text="Экскурсии" TextColor="White" FontFamily="Goth" FontSize="29" Margin="130,90,0,0">
+                    <Label.Shadow>
+                        <Shadow Brush="Black" Offset="0,0"/>
+                    </Label.Shadow>
+                </Label>
+            </Grid>
+        </Border>
+        <Button WidthRequest="280" HeightRequest="130" Margin="715,-560,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_3"/>
+
+
+        <Border  WidthRequest="280" HeightRequest="400" Margin="715,0,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="2">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
+            </Border.Shadow>
+            <Grid>
+               <Image Source="saitkvantoriuma.png" Aspect="AspectFill" Margin="0,-20,0,0"/>
+                  
+            </Grid>
+        </Border>
+        <Border Opacity="0.4" BackgroundColor="Black" WidthRequest="280" HeightRequest="100" Margin="715,300,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="2"/>
+        <Button BackgroundColor="Transparent" WidthRequest="280" HeightRequest="400" CornerRadius="20" Margin="715,0,0,0" Clicked="Button_Clicked"/>
+        <Label Text="Остальные новости" FontFamily="Goth" FontSize="44" Margin="750,475,0,0" TextColor="White">
+        </Label>
+        <!---->
+
+        <Border BackgroundColor="White" Stroke="Transparent" HeightRequest="100" WidthRequest="860" Margin="130,560,0,0" Opacity="0.5" StrokeShape="RoundRectangle 20,20,20,20"/>
+
+        <Image Source="part.png" WidthRequest="120" HeightRequest="150" Margin="-550,560,0,0"/>
+
+        <Image Source="partne.png" WidthRequest="150" HeightRequest="150" Margin="-220,560,0,0"/>
+
+        <Image Source="partn.png" WidthRequest="110" HeightRequest="150" Margin="120,560,0,0"/>
+
+        <Image Source="partners.png" WidthRequest="120" HeightRequest="150" Margin="450,560,0,0"/>
+
+        <Image Source="partner.png" WidthRequest="150" HeightRequest="150" Margin="810,560,0,0"/>
+
+
+
+        <!--Кнопки боковой панели навигации-->
+        <Grid>
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="Green" StrokeThickness="1.5" Stroke="White" Margin="-895,0,0,0">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent"  StrokeThickness="2" Stroke="White">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="vopros9.png" HeightRequest="42" WidthRequest="45" Margin="-60,-60,0,0"  Rotation="140" Opacity="1"/>
+                        <Image Source="vopros8.png" HeightRequest="55" WidthRequest="55" Margin="-50,50,0,0"  Rotation="-12"  Opacity="1"/>
+                        <Image Source="vopros10.png" HeightRequest="500" WidthRequest="50" Margin="65,60,0,0"  Rotation="-50" Opacity="1"/>
+                        <Image Source="vopros7.png" HeightRequest="50" WidthRequest="100" Margin="40,-50,0,0"  Rotation="20" Opacity="1"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button  HeightRequest="120" WidthRequest="120" CornerRadius="25" Margin="-895,0,0,0" BackgroundColor="Transparent" Clicked="Button_Clicked_4"/>
+        </Grid>
+
+        <Grid Margin="-895,-280,0,0">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#242984" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent" StrokeThickness="2" Stroke="White" Opacity="0.9">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="biologod.png" HeightRequest="70" WidthRequest="70" Margin="0,-60,-40,0" Rotation="30"/>
+                        <Image Source="vrlogod.png" HeightRequest="60" WidthRequest="60" Margin="0,40,-50,0" Rotation="70"/>
+                        <Image Source="medialogod.png" HeightRequest="70" WidthRequest="70" Margin="0,50,50,0" Rotation="30"/>
+                        <Image Source="itlogod.png" HeightRequest="70" WidthRequest="70" Margin="0,-50,50,0" Rotation="330"/>
+                        <Image Source="nanologod.png" HeightRequest="40" WidthRequest="40" Margin="10,0,130,10" Rotation="50"/>
+                        <Image Source="robologod.png" HeightRequest="55" WidthRequest="55" Margin="0,110,180,0" Rotation="70"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" BackgroundColor="Transparent" Margin="0,0,0,0" Clicked="Button_Clicked_5"/>
+        </Grid>
+
+        <Grid Margin="-895,-560,0,0">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#DA0B15" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent" StrokeThickness="2" Stroke="White" Opacity="0.9">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="vrlogod.png" HeightRequest="70" WidthRequest="70" Margin="0,40,-50,0" Rotation="70" />
+                        <Image Source="homey.png" HeightRequest="90" WidthRequest="90" Margin="0,0,0,0">
+                            <Image.Shadow>
+                                <Shadow Brush="Black" Offset="0,0" Radius="20"/>
+                            </Image.Shadow>
+                        </Image>
+                        <Image Source="whitelogo.png" HeightRequest="50" WidthRequest="50" Margin="0,60,80,0" Rotation="30"/>
+                        <Image Source="vopros8.png" HeightRequest="50" WidthRequest="50" Margin="0,-70,60,0" Rotation="330"/>
+                        <Image Source="ikarlogo.png" HeightRequest="60" WidthRequest="60" Margin="80,-30,0,10" Rotation="50"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" BackgroundColor="Transparent" Margin="0,0,0,0" Clicked="Button_Clicked_6"/>
+        </Grid>
+
+       <!--Логотип на панели навигации-->
+        <Image Source="whitelogo.png" Margin="-895,570,0,0" HeightRequest="100" WidthRequest="100"/>
+
+
+    </Grid>
+
+</ContentPage>

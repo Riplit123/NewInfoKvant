@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.Voprosyiotveti"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="Voprosyiotveti">
+
+    <Grid>
+        
+        <Image Source="fonnews.jpg" WidthRequest="1350" Margin="0,0,0,0"/>
+        <!--Панель навигации-->
+        <Border  BackgroundColor="DeepSkyBlue" WidthRequest="235" Stroke="DeepSkyBlue" Opacity="0.5" HeightRequest="800" Margin="-1000,0,0,0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="1,0"/>
+            </Border.Shadow>
+        </Border>
+        <!--кнопки панели навигации-->
+        <Grid>
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#e7671b" StrokeThickness="1.5" Stroke="White" Margin="-895,0,0,0">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent"  StrokeThickness="2" Stroke="White">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="tehnostrelkalogo.png" HeightRequest="57" WidthRequest="59" Margin="-62,-45,0,0"  Rotation="140" Opacity="1"/>
+                        <Image Source="icon.png" HeightRequest="40" WidthRequest="40" Margin="-40,50,0,0"  Rotation="-12"  Opacity="1"/>
+                        <Image Source="navi.png" HeightRequest="500" WidthRequest="50" Margin="60,50,0,0"  Rotation="-50" Opacity="1"/>
+                        <Image Source="iconevent.png" HeightRequest="50" WidthRequest="60" Margin="55,-60,0,0"  Rotation="20" Opacity="1"/>
+                    </Grid>
+                </Border>
+
+            </Border>
+            <Button  HeightRequest="120" WidthRequest="120" CornerRadius="25" Margin="-895,0,0,0" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+        </Grid>
+
+        <Grid Margin="-895,-280,0,0">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#242984" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent" StrokeThickness="2" Stroke="White" Opacity="0.9">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="biologod.png" HeightRequest="70" WidthRequest="70" Margin="0,-60,-40,0" Rotation="30"/>
+                        <Image Source="vrlogod.png" HeightRequest="60" WidthRequest="60" Margin="0,40,-50,0" Rotation="70"/>
+                        <Image Source="medialogod.png" HeightRequest="70" WidthRequest="70" Margin="0,50,50,0" Rotation="30"/>
+                        <Image Source="itlogod.png" HeightRequest="70" WidthRequest="70" Margin="0,-50,50,0" Rotation="330"/>
+                        <Image Source="nanologod.png" HeightRequest="40" WidthRequest="40" Margin="10,0,130,10" Rotation="50"/>
+                        <Image Source="robologod.png" HeightRequest="55" WidthRequest="55" Margin="0,110,180,0" Rotation="70"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" BackgroundColor="Transparent" Margin="0,0,0,0" Clicked="Button_Clicked_1"/>
+        </Grid>
+
+        <Grid Margin="-895,-560,0,0">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#DA0B15" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent" StrokeThickness="2" Stroke="White" Opacity="0.9">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="vrlogod.png" HeightRequest="70" WidthRequest="70" Margin="0,40,-50,0" Rotation="70" />
+                        <Image Source="homey.png" HeightRequest="90" WidthRequest="90">
+                            <Image.Shadow>
+                                <Shadow Brush="Black" Offset="0,0" Radius="20"/>
+                            </Image.Shadow>
+                        </Image>
+                        <Image Source="whitelogo.png" HeightRequest="50" WidthRequest="50" Margin="0,60,80,0" Rotation="30"/>
+                        <Image Source="vopros8.png" HeightRequest="50" WidthRequest="50" Margin="0,-70,60,0" Rotation="330"/>
+                        <Image Source="ikarlogo.png" HeightRequest="60" WidthRequest="60" Margin="80,-30,0,10" Rotation="50"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" BackgroundColor="Transparent" Clicked="Button_Clicked_2"/>
+        </Grid>
+
+       
+        <Grid>
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="Green" StrokeThickness="1.5" Stroke="White" Margin="-895,280,0,0">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent"  StrokeThickness="2" Stroke="White">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="vopros6.png" HeightRequest="67" WidthRequest="69" Margin="0,0,0,0"  Rotation="0" Opacity="1"/>
+                        
+                    </Grid>
+                </Border>
+            </Border> 
+            <Button  HeightRequest="120" WidthRequest="120" CornerRadius="25" Margin="-895,280,0,0" BackgroundColor="Transparent" Clicked="Button_Clicked_3"/>
+
+
+        </Grid>
+
+        <!--Логотип на панели навигации-->
+        <Image Source="whitelogo.png" Margin="-895,570,0,0" HeightRequest="100" WidthRequest="100"/>
+
+        <ScrollView WidthRequest="918" Margin="120,0,0,0">
+            <VerticalStackLayout Padding="20" Margin="-80,13,0,0">
+                
+                
+            <toolkit:Expander>
+                
+                
+                <toolkit:Expander.Header>
+                    <Grid>
+                            <Border HeightRequest="50" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,20" Stroke="White" BackgroundColor="Green" Opacity="0.9">
+                            <Label Text="• Проводите ли вы мероприятия для целого класса?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="21" Margin="0,3,0,0">
+                                <Label.Shadow>
+                                    <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                </Label.Shadow>
+                            </Label>
+                        </Border>
+                    </Grid>
+                </toolkit:Expander.Header>
+                
+                
+                
+                <toolkit:Expander.Content>
+                    <Grid>
+                        <Border HeightRequest="110" WidthRequest="800" StrokeShape="RoundRectangle 0,20,0,20" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                            <Label Text="Да. Кроме экскурсий, которые проводятся на бесплатной основе, у нас есть платные мастер-классы, на которых ребята с помощью современных технологий смогут создать что-то своими руками. Более подробную информацию Вы можете получить по номеру телефона выбранной площадки." TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="22" Margin="20,5,0,0"/>
+                        </Border>
+                    </Grid>
+                </toolkit:Expander.Content>
+                
+                
+            </toolkit:Expander>
+                
+                
+                
+            <toolkit:Expander>
+                <toolkit:Expander.Header>
+                    <Grid>
+                            <Border HeightRequest="70" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,40" Stroke="White"  BackgroundColor="Green" Opacity="0.9">
+                            <VerticalStackLayout>
+                                <Label Text="• Как можно прийти на экскурсию в технопарк?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="21" Margin="0,3,0,0">
+                                <Label.Shadow>
+                                    <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                </Label.Shadow>
+                            </Label>
+                            <Label Text="Есть ли индивидуальные экскурсии?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="21" Margin="32,-18,0,0">
+                                <Label.Shadow>
+                                    <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                </Label.Shadow>
+                            </Label>
+                            </VerticalStackLayout>
+                        </Border>
+                    </Grid>
+                </toolkit:Expander.Header>
+                <toolkit:Expander.Content>
+                    <Grid>
+                        <Border HeightRequest="85" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,40" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                            <Label Text="На наших площадках предусмотрены только групповые экскурсии (не более 30 человек) в будние дни. Записаться на них можно по номерам телефонов, которые Вы можете найти в разделе «Контакты»." TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="22" Margin="20,5,0,0"/>
+                        </Border>
+                    </Grid>
+                </toolkit:Expander.Content>
+            </toolkit:Expander>
+
+            <toolkit:Expander >
+                <toolkit:Expander.Header >
+                    <Grid>
+                            <Border HeightRequest="50" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,20"  Stroke="White" BackgroundColor="Green" Opacity="0.9">
+                            <Label Text="• Что выдается ребенку по окончании обучения?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="21" Margin="0,3,0,0">
+                                <Label.Shadow>
+                                    <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                </Label.Shadow>
+                            </Label>
+                        </Border>
+                    </Grid>
+                </toolkit:Expander.Header>
+                <toolkit:Expander.Content>
+                    <Grid>
+                        <Border HeightRequest="120" WidthRequest="800" StrokeShape="RoundRectangle 0,20,0,20" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                            <Label Text="По окончании любого из уровней обучения (стартовый, базовый, углубленный) ребенку выдается сертификат о прохождении соответствующего курса, что при успешных показателях (посещаемость, защита кейса/проекта, работа в команде) дает ему право поступления на следующий уровень обучения (если ребенку не исполнилось 18 лет)." TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="21" Margin="20,5,0,0"/>
+                        </Border>
+                    </Grid>
+                </toolkit:Expander.Content>
+            </toolkit:Expander>
+            <toolkit:Expander >
+                    <toolkit:Expander.Header >
+                        <Grid>
+                            <Border HeightRequest="50" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,20" Stroke="White"  BackgroundColor="Green" Opacity="0.9">
+                                <Label Text="• Как строится образовательный процесс?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="21" Margin="0,3,0,0">
+                                    <Label.Shadow>
+                                        <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                    </Label.Shadow>
+                                </Label>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Header>
+                    <toolkit:Expander.Content>
+                        <Grid>
+                            <Border HeightRequest="206" WidthRequest="800" StrokeShape="RoundRectangle 0,20,0,20" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                                <Label Text="В детских технопарках «Кванториум» многоуровневая система обучения. По окончании каждого уровня (стартовый, базовый, углубленный) кванторианец защищает итог своей работы  (кейс или проект) перед аттестационной комиссией, которая состоит из сотрудников технопарка и профильных специалистов. На основании посещаемости, личной заинтересованности ребенка, успешной защиты и умения работать в команде принимается решение о возможности перевода ребенка на следующий уровень. В случае невозможности перевода обучающийся может выбрать любое другое направление и подать на него заявку, когда откроется новый набор." TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="21" Margin="20,5,0,0"/>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Content>
+                </toolkit:Expander>
+            <toolkit:Expander >
+                    <toolkit:Expander.Header >
+                        <Grid>
+                            <Border HeightRequest="50" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,20" Stroke="White"  BackgroundColor="Green" Opacity="0.9">
+                                <Label Text="• Как проходят занятия?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="21" Margin="0,3,0,0">
+                                    <Label.Shadow>
+                                        <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                    </Label.Shadow>
+                                </Label>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Header>
+                    <toolkit:Expander.Content>
+                        <Grid>
+                            <Border HeightRequest="100" WidthRequest="800" StrokeShape="RoundRectangle 0,20,0,20" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                                <Label Text="На занятиях кванторианцы с помощью наставников учатся работать в командах и на современном оборудовании, осваивают различные программы, разрабатывают решения для реальных заказчиков, создают собственные проекты и повышают уровень своих знаний, участвуя в различных конкурсах и соревнованиях." TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="21" Margin="20,5,0,0"/>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Content>
+                </toolkit:Expander>
+            <toolkit:Expander >
+            <toolkit:Expander.Header >
+                        <Grid>
+                            <Border HeightRequest="70" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,40" Stroke="White"  BackgroundColor="Green" Opacity="0.9">
+                                <VerticalStackLayout>
+                                    <Label Text="• Возможно ли поменять направление обучения после" TextColor="White" Padding="10" FontFamily="Bank" FontSize="19" Margin="0,3,0,0">
+                                        <Label.Shadow>
+                                            <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                        </Label.Shadow>
+                                    </Label>
+                                    <Label Text="окончания первого уровня?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="19" Margin="28,-17,0,0">
+                                        <Label.Shadow>
+                                            <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                        </Label.Shadow>
+                                    </Label>
+                                </VerticalStackLayout>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Header>
+            <toolkit:Expander.Content>
+                        <Grid>
+                            <Border HeightRequest="105" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,40" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                                <Label Text="Да, возможно, при наличии свободных мест на интересующее Вас направление. В этом случае Вы подаете заявку в период открытия нового набора и в порядке живой очереди ожидаете сведения о зачислении. При успешном переводе Вам будет необходимо написать заявление об отчислении с предыдущего направления." TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="21" Margin="20,5,0,0"/>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Content>
+            </toolkit:Expander>
+            <toolkit:Expander >
+                    <toolkit:Expander.Header >
+                        <Grid>
+                            <Border HeightRequest="70" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,40" Stroke="White"  BackgroundColor="Green" Opacity="0.9">
+                                <VerticalStackLayout>
+                                    <Label Text="• Есть ли занятия для детей, которые учатся во " TextColor="White" Padding="10" FontFamily="Bank" FontSize="19" Margin="0,3,0,0">
+                                        <Label.Shadow>
+                                            <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                        </Label.Shadow>
+                                    </Label>
+                                    <Label Text="вторую смену?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="19" Margin="28,-17,0,0">
+                                        <Label.Shadow>
+                                            <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                        </Label.Shadow>
+                                    </Label>
+                                </VerticalStackLayout>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Header>
+                    <toolkit:Expander.Content>
+                        <Grid>
+                            <Border HeightRequest="105" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,40" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                                <Label Text="Да, возможно, при наличии свободных мест на интересующее Вас направление. В этом случае Вы подаете заявку в период открытия нового набора и в порядке живой очереди ожидаете сведения о зачислении. При успешном переводе Вам будет необходимо написать заявление об отчислении с предыдущего направления." TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="21" Margin="20,5,0,0"/>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Content>
+                </toolkit:Expander>
+            <toolkit:Expander>
+                    <toolkit:Expander.Header>
+                        <Grid>
+                            <Border HeightRequest="50" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,20" Stroke="White" BackgroundColor="Green" Opacity="0.9">
+                                <Label Text="• Как часто проходят занятия?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="21" Margin="0,3,0,0">
+                                    <Label.Shadow>
+                                        <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                    </Label.Shadow>
+                                </Label>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Header>
+                    <toolkit:Expander.Content>
+                        <Grid>
+                            <Border HeightRequest="110" WidthRequest="800" StrokeShape="RoundRectangle 0,20,0,20" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                                <Label Text="Как правило, занятия проходят 2 раза в неделю по 2 академических часа, также для всех желающих еженедельно организуются различные мастер-классы, гуру-лекции и интенсивы, направленные на развитие не только soft skills, но и прикладных навыков."  
+                       TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="22" Margin="20,5,0,0"/>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Content>
+
+
+                </toolkit:Expander>
+                <toolkit:Expander>
+
+
+                    <toolkit:Expander.Header>
+                        <Grid>
+                            <Border HeightRequest="50" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,20" Stroke="White" BackgroundColor="Green" Opacity="0.9">
+                                <Label Text="• Сколько стоят занятия?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="21" Margin="0,3,0,0">
+                                    <Label.Shadow>
+                                        <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                    </Label.Shadow>
+                                </Label>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Header>
+
+
+
+                    <toolkit:Expander.Content>
+                        <Grid>
+                            <Border HeightRequest="110" WidthRequest="800" StrokeShape="RoundRectangle 0,20,0,20" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                                <Label Text="Обучение по основным программам (в квантумах) осуществляется на бесплатной основе, перечень платных направлений и мероприятий Вы можете найти на нашем сайте, на странице «Внебюджет» или в группе Вконтакте."  
+                       TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="22" Margin="20,5,0,0"/>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Content>
+
+
+                </toolkit:Expander>
+
+                <toolkit:Expander>
+                    <toolkit:Expander.Header >
+        <Grid>
+                            <Border HeightRequest="70" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,40" Stroke="White"  BackgroundColor="Green" Opacity="0.9">
+                <VerticalStackLayout>
+                    <Label Text="• С какого возраста можно обучаться в детском  " TextColor="White" Padding="10" FontFamily="Bank" FontSize="19" Margin="0,3,0,0">
+                        <Label.Shadow>
+                            <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                        </Label.Shadow>
+                    </Label>
+                    <Label Text="технопарке «кванториум»?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="19" Margin="28,-17,0,0">
+                        <Label.Shadow>
+                            <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                        </Label.Shadow>
+                    </Label>
+                </VerticalStackLayout>
+            </Border>
+        </Grid>
+    </toolkit:Expander.Header>
+    <toolkit:Expander.Content>
+        <Grid>
+            <Border HeightRequest="105" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,40" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                <Label Text="Да, возможно, при наличии свободных мест на интересующее Вас направление. В этом случае Вы подаете заявку в период открытия нового набора и в порядке живой очереди ожидаете сведения о зачислении. При успешном переводе Вам будет необходимо написать заявление об отчислении с предыдущего направления." TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="21" Margin="20,5,0,0"/>
+            </Border>
+        </Grid>
+    </toolkit:Expander.Content>
+</toolkit:Expander>
+
+
+
+                <toolkit:Expander>
+
+
+                    <toolkit:Expander.Header>
+                        <Grid>
+                            <Border HeightRequest="50" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,20" Stroke="White" BackgroundColor="Green" Opacity="0.9">
+                                <Label Text="• Как подать заявку на обучение?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="21" Margin="0,3,0,0">
+                                    <Label.Shadow>
+                                        <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                    </Label.Shadow>
+                                </Label>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Header>
+
+
+
+                    <toolkit:Expander.Content>
+                        <Grid>
+                            <Border HeightRequest="110" WidthRequest="800" StrokeShape="RoundRectangle 0,20,0,20" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                                <Label Text="Для того, чтобы стать обучающимся детского технопарка «Кванториум»,
+ необходимо подать заявку на сайте «Навигатор дополнительного образования Нижегородской области» и ожидать письмо-подтверждение с указанием перечня обязательных к заполнению документов и сроков их подачи."  
+                       TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="22" Margin="20,5,0,0"/>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Content>
+
+
+                </toolkit:Expander>
+
+                <toolkit:Expander>
+
+
+                    <toolkit:Expander.Header>
+                        <Grid>
+                            <Border HeightRequest="50" WidthRequest="800" StrokeShape="RoundRectangle 0,40,0,20" Stroke="White" BackgroundColor="Green" Opacity="0.9">
+                                <Label Text="• Когда осуществляется новый набор?" TextColor="White" Padding="10" FontFamily="Bank" FontSize="21" Margin="0,3,0,0">
+                                    <Label.Shadow>
+                                        <Shadow Brush="Black" Offset="0,0" Radius="5" />
+                                    </Label.Shadow>
+                                </Label>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Header>
+
+
+
+                    <toolkit:Expander.Content>
+                        <Grid>
+                            <Border HeightRequest="110" WidthRequest="800" StrokeShape="RoundRectangle 0,20,0,20" Stroke="LightBlue"  StrokeThickness="1" BackgroundColor="White">
+                                <Label Text="Запись на обучение производится каждые полгода: в июле-августе и январе.
+                             Информация о наборе размещается для родителей и желающих обучаться на сайте и официальных страницах в социальных сетях."
+                      TextColor="DeepSkyBlue" FontFamily="Goth" FontSize="22" Margin="20,5,0,0"/>
+                            </Border>
+                        </Grid>
+                    </toolkit:Expander.Content>
+
+
+                </toolkit:Expander>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+</ContentPage>

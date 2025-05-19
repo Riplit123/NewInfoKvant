@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.Sotrudniki"
+             Title="Sotrudniki">
+    <Grid>
+        <Image Source="fonnews.jpg" WidthRequest="1350" Margin="0,0,0,0"/>
+        <Border  BackgroundColor="DeepSkyBlue" WidthRequest="235" Stroke="DeepSkyBlue" Opacity="0.5" HeightRequest="800" Margin="-1000,0,0,0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="1,0"/>
+            </Border.Shadow>
+        </Border>
+
+        <ScrollView Orientation="Vertical">
+            <Grid>
+                <Label Text="Руководство:" FontFamily="Bank" FontSize="30" TextColor="White" Margin="150,20,0,0"/>
+
+        <Grid>
+            <Border HeightRequest="350" WidthRequest="260" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#124499" StrokeThickness="2" Stroke="White" Margin="-470,-870,0,0">
+                <Grid>
+                    <Border HeightRequest="190" WidthRequest="220" Margin="0,-120,0,0" StrokeShape="RoundRectangle 20,20,20,20"  BackgroundColor="Transparent" StrokeThickness="2" Stroke="White">
+
+                        <Grid>
+                            <!--Изображения -->
+                                    <Image Source="mvg.jpg" HeightRequest="250" WidthRequest="250" Margin="0,30,0,0"  Rotation="0" Opacity="2"/>
+                        </Grid>
+                    </Border>
+                    <Button WidthRequest="300" HeightRequest="300" CornerRadius="50" BackgroundColor="Transparent" Margin="0,0,0,0"/>
+
+                    <Label Text="Воронина Мария Владимировна" TextColor="White" FontFamily="Goth" FontSize="23" Margin="0,215,0,0" HorizontalTextAlignment="Center"/>
+                    <Label Text="Руководитель ДТ 
+                           Кванториум 
+                           Нижний Новгород" TextColor="White" FontFamily="Goth" FontSize="20" Margin="0,270,0,0" HorizontalTextAlignment="Center" />
+                </Grid>
+            </Border>
+        </Grid>
+
+       
+
+        <Label Text="Педагогические работники:" FontFamily="Bank" FontSize="30" TextColor="White" Margin="150,450,0,0"/>
+        <Label Text="Методисты" FontFamily="Goth" FontSize="40" TextColor="White" Margin="150,490,0,0"/>
+
+                <Grid>
+                    <Border HeightRequest="350" WidthRequest="260" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#124499" StrokeThickness="2" Stroke="White" Margin="-470,90,0,0">
+                        <Grid>
+                            <Border HeightRequest="190" WidthRequest="220" Margin="0,-120,0,0" StrokeShape="RoundRectangle 20,20,20,20"  BackgroundColor="Transparent" StrokeThickness="2" Stroke="White">
+
+                                <Grid>
+                                    <!--Изображения -->
+                                    <Image Source="gi.jpg" HeightRequest="250" WidthRequest="250" Margin="0,30,0,0"  Rotation="0" Opacity="2"/>
+                                </Grid>
+                            </Border>
+                            <Button WidthRequest="300" HeightRequest="300" CornerRadius="50" BackgroundColor="Transparent" Margin="0,0,0,0"/>
+
+                            <Label Text="Чучкова Инга Вячеславовна" TextColor="White" FontFamily="Goth" FontSize="23" Margin="0,215,0,0" HorizontalTextAlignment="Center"/>
+                            <Label Text="Начальник отдела 
+                                   по УМР, методист" TextColor="White" FontFamily="Goth" FontSize="20" Margin="0,270,0,0" HorizontalTextAlignment="Center" />
+                        </Grid>
+                    </Border>
+                </Grid>
+
+        <Label Text="Педагоги дополнительного образования" FontFamily="Goth" FontSize="40" TextColor="White" Margin="150,900,0,0"/>
+
+                <Grid>
+                    <Border HeightRequest="350" WidthRequest="260" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#124499" StrokeThickness="2" Stroke="White" Margin="-470,980,0,0">
+                        <Grid>
+                            <Border HeightRequest="190" WidthRequest="220" Margin="0,-120,0,0" StrokeShape="RoundRectangle 20,20,20,20"  BackgroundColor="Transparent" StrokeThickness="2" Stroke="White">
+
+                                <Grid>
+                                    <!--Изображения -->
+                                    <Image Source="mkn.jpg" HeightRequest="250" WidthRequest="250" Margin="0,30,0,0"  Rotation="0" Opacity="2"/>
+                                </Grid>
+                            </Border>
+                            <Button WidthRequest="300" HeightRequest="300" CornerRadius="50" BackgroundColor="Transparent" Margin="0,0,0,0"/>
+
+                            <Label Text="Тарасов Сергей Сергеевич" TextColor="White" FontFamily="Goth" FontSize="23" Margin="0,215,0,0" HorizontalTextAlignment="Center"/>
+                            <Label Text="БИОКВАНТУМ" TextColor="White" FontFamily="Goth" FontSize="20" Margin="0,270,0,0" HorizontalTextAlignment="Center" />
+                        </Grid>
+                    </Border>
+                </Grid>
+
+                <Grid>
+                    <Border HeightRequest="350" WidthRequest="260" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#124499" StrokeThickness="2" Stroke="White" Margin="70,980,0,0">
+                        <Grid>
+                            <Border HeightRequest="190" WidthRequest="220" Margin="0,-120,0,0" StrokeShape="RoundRectangle 20,20,20,20"  BackgroundColor="Transparent" StrokeThickness="2" Stroke="White">
+
+                                <Grid>
+                                    <!--Изображения -->
+                                    <Image Source="saq.jpg" HeightRequest="250" WidthRequest="250" Margin="0,30,0,0"  Rotation="0" Opacity="2"/>
+                                </Grid>
+                            </Border>
+                            <Button WidthRequest="300" HeightRequest="300" CornerRadius="50" BackgroundColor="Transparent" Margin="0,0,0,0"/>
+
+                            <Label Text="Титаева Евгения Константиновна" TextColor="White" FontFamily="Goth" FontSize="23" Margin="0,215,0,0" HorizontalTextAlignment="Center"/>
+                            <Label Text="НАНОКВАНТУМ" TextColor="White" FontFamily="Goth" FontSize="20" Margin="0,270,0,0" HorizontalTextAlignment="Center" />
+                        </Grid>
+                    </Border>
+                </Grid>
+
+
+                <Grid>
+                    <Border HeightRequest="350" WidthRequest="260" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#124499" StrokeThickness="2" Stroke="White" Margin="620,980,0,0">
+                        <Grid>
+                            <Border HeightRequest="190" WidthRequest="220" Margin="0,-120,0,0" StrokeShape="RoundRectangle 20,20,20,20"  BackgroundColor="Transparent" StrokeThickness="2" Stroke="White">
+
+                                <Grid>
+                                    <!--Изображения -->
+                                    <Image Source="biv.jpg" HeightRequest="250" WidthRequest="250" Margin="0,30,0,0" Rotation="0" Opacity="2"/>
+                                </Grid>
+                            </Border>
+                            <Button WidthRequest="300" HeightRequest="300" CornerRadius="50" BackgroundColor="Transparent" Margin="0,0,0,0"/>
+
+                            <Label Text="Третьяков Петр Алексеевич" TextColor="White" FontFamily="Goth" FontSize="23" Margin="0,215,0,0" HorizontalTextAlignment="Center"/>
+                            <Label Text="IT-КВАНТУМ" TextColor="White" FontFamily="Goth" FontSize="20" Margin="0,270,0,0" HorizontalTextAlignment="Center" />
+                        </Grid>
+                    </Border>
+                </Grid>
+
+
+
+            </Grid>
+
+        </ScrollView>
+
+
+
+        <Grid Margin="-895,-560,0,0">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#242984" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent" StrokeThickness="2" Stroke="White" Opacity="0.9">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="biologod.png" HeightRequest="70" WidthRequest="70" Margin="0,-60,-40,0" Rotation="30"/>
+                        <Image Source="vrlogod.png" HeightRequest="60" WidthRequest="60" Margin="0,40,-50,0" Rotation="70"/>
+                        <Image Source="medialogod.png" HeightRequest="70" WidthRequest="70" Margin="0,50,50,0" Rotation="30"/>
+                        <Image Source="itlogod.png" HeightRequest="70" WidthRequest="70" Margin="0,-50,50,0" Rotation="330"/>
+                        <Image Source="nanologod.png" HeightRequest="40" WidthRequest="40" Margin="10,0,130,10" Rotation="50"/>
+                        <Image Source="robologod.png" HeightRequest="55" WidthRequest="55" Margin="0,110,180,0" Rotation="70"/>
+                        <Image Source="retu.png" HeightRequest="60" WidthRequest="60" Margin="0,0,0,0"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" BackgroundColor="Transparent" Margin="0,0,0,0" Clicked="Button_Clicked"/>
+        </Grid>
+        
+        <!--Логотип на панели навигации-->
+        <Image Source="whitelogo.png" Margin="-895,570,0,0" HeightRequest="100" WidthRequest="100"/>
+    </Grid>
+</ContentPage>

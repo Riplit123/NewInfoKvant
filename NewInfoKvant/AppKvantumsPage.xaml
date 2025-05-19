@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.AppKvantumsPage"
+                      Title="AppKvantumsPage" BackgroundImageSource="kvantumskart.jpg">
+
+    <Grid>
+        <Button HeightRequest="230" WidthRequest="210" Margin="-530,-490,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked"/>
+        <Image Source="retu.png" HeightRequest="60" WidthRequest="60" Margin="0,0,895,575" Opacity="0.8"/>
+        <Button HeightRequest="120" WidthRequest="120"  Margin="-895,-560,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_1"/>
+
+        <Button HeightRequest="235" WidthRequest="219"  Margin="-100,-480,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_2"/>
+
+        <Button HeightRequest="235" WidthRequest="219"  Margin="350,-490,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_3"/>
+
+        <Button HeightRequest="235" WidthRequest="219"  Margin="790,-490,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_4"/>
+
+        <Button HeightRequest="235" WidthRequest="219"  Margin="-530,-10,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_5"/>
+
+        <Button HeightRequest="235" WidthRequest="219"  Margin="-90,-10,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_6"/>
+
+        <Button HeightRequest="235" WidthRequest="219"  Margin="350,-10,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_7"/>
+
+        <Button HeightRequest="235" WidthRequest="219"  Margin="790,-10,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_8"/>
+
+        <Button HeightRequest="235" WidthRequest="219"  Margin="-90,480,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_9"/>
+
+        <Button HeightRequest="235" WidthRequest="219"  Margin="350,480,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_10"/>
+    </Grid>
+</ContentPage>

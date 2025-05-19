@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.TestPage" BackgroundImageSource="apptest.png">
+    <Grid>
+        <Border HeightRequest="400" WidthRequest="570" Margin="-155,0,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="3">
+            <CarouselView x:Name="carouselView" ItemsSource="{Binding Items}" CurrentItem="{Binding CurrentItem}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Image Source="{Binding ImageSource}" Aspect="AspectFill"/>
+                            <Button HeightRequest="100" WidthRequest="100" Margin="430,0,0,270" CornerRadius="50" IsVisible="{Binding Visible}" BackgroundColor="#e7671b" Opacity="0.7" Clicked="Button_Clicked_7" ImageSource="ico.png" />
+                            <Label Text="{Binding Title}" HorizontalOptions="Center"  FontFamily="Goth" VerticalOptions="Center" TextColor="White" FontAttributes="Bold" FontSize="50" Margin="20,280,20,0">
+                                <Label.Shadow>
+                                    <Shadow Brush="Black" Offset="0,0"/>
+                                </Label.Shadow>
+                            </Label>
+                        </Grid>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </Border>
+
+      
+
+        <Button HeightRequest="130" WidthRequest="280" Margin="-450,-560,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_1"/>
+        <Button WidthRequest="280" HeightRequest="130" Margin="135,-560,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_2"/>
+        <Button WidthRequest="280" HeightRequest="130" Margin="715,-560,0,0" BackgroundColor="Transparent" CornerRadius="20" Clicked="Button_Clicked_3"/>
+        <Button BackgroundColor="Transparent" WidthRequest="280" HeightRequest="400" CornerRadius="20" Margin="715,0,0,0" Clicked="Button_Clicked"/>
+        <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" Margin="-895,0,0,0" BackgroundColor="Transparent"  Clicked="Button_Clicked_4"/>
+        <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" Margin="-895,-280,0,0" BackgroundColor="Transparent" Clicked="Button_Clicked_5"/>
+        <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" Margin="-895,-560,0,0" BackgroundColor="Transparent" Clicked="Button_Clicked_6"/>
+    </Grid>
+</ContentPage>

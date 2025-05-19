@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.math"
+             Title="math">
+    <Grid>
+        <Image Source="fonnews.jpg" WidthRequest="1350" Margin="0,0,0,0"/>
+
+        <!--Панель навигации-->
+        <Border  BackgroundColor="DeepSkyBlue" WidthRequest="235" Stroke="DeepSkyBlue" Opacity="0.5" HeightRequest="800" Margin="-1000,0,0,0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="1,0"/>
+            </Border.Shadow>
+        </Border>
+
+
+        <!--ОБ IT-КВАНТУМЕ-->
+        <Border  BackgroundColor="#124499" HeightRequest="280" WidthRequest="400"  Margin="-340,-435,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="2">
+            <Grid>
+                <Image Source="itlogod.png" HeightRequest="140" WidthRequest="140" Margin="290,20,0,200"/>
+                <Label Text="IT-КВАНТУМ" TextColor="White" FontFamily="Bank" FontSize="30" Margin="20,13,0,0"/>
+                <Label TextColor="White" FontFamily="Goth" FontSize="25" Margin="20,50,0,0" Text="В IT-квантуме учащиеся погружаются в основные аспекты информационных технологий с целью охвата этой стремительно растущей области, поиска своего направления и мотивации на перспективное развитие."/>
+            </Grid>
+        </Border>
+
+        <!--ТЕХНИКА И ОБОРУДОВАНИЕ-->
+        <Border BackgroundColor="#124499" HeightRequest="400" WidthRequest="400" Margin="-340,270,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="2">
+
+
+            <Grid>
+                <Image Source="computer.png" HeightRequest="220" WidthRequest="220" Margin="180,170,0,0"/>
+                <Label Text="Техническое обеспечение" TextColor="White" FontFamily="Bank" FontSize="22" Margin="18,13,0,0"/>
+                <Label TextColor="White" FontFamily="Goth" FontSize="25" Margin="20,40,0,0" Text="- Intel Core i7 7700K
+                      - Монитор 27 VA 300cd 1920x1080
+                      
+                       - Windows 10 Pro 
+                       - nVidia GeForce GTX 1060 Ti "/>
+            </Grid>
+
+
+        </Border>
+
+        <!--ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ-->
+        <Border  BackgroundColor="#124499" HeightRequest="170" WidthRequest="450"  Margin="550,-545,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="2">
+            <Grid>
+                <Label Text="Програмное обеспечение" TextColor="White" FontFamily="Goth" FontSize="25" Margin="20,10,0,0"/>
+                <Image Source="javascript.png" HeightRequest="70" WidthRequest="70" Margin="-320,10,0,0"/>
+                <Image Source="evergene.png" HeightRequest="70" WidthRequest="70" Margin="-170,10,0,0"/>
+                <Image Source="python.png" HeightRequest="70" WidthRequest="70" Margin="-10,10,0,0"/>
+                <Image Source="visualstudio.png" HeightRequest="70" WidthRequest="70" Margin="160,10,0,0"/>
+                <Image Source="arduino.png" HeightRequest="70" WidthRequest="70" Margin="320,10,0,0"/>
+            </Grid>
+
+        </Border>
+
+        <!--ПРЕПОДАВАТЕЛИ-->
+        <Border HeightRequest="200" WidthRequest="450" Margin="550,-155,0,0" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="#124499" Opacity="0.9" StrokeThickness="2" Stroke="White">
+            <Grid>
+                <Grid>
+                    <Border HeightRequest="180" WidthRequest="160" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#127499" StrokeThickness="2" Stroke="White" Margin="-180,0,0,0">
+                        <Grid>
+                            <Border HeightRequest="130" WidthRequest="130" Margin="0,-35,0,0" StrokeShape="RoundRectangle 20,20,20,20"  BackgroundColor="Transparent" StrokeThickness="4" Stroke="White">
+
+                                <Grid>
+                                    <!--Изображения -->
+                                    <Image Source="biv.jpg" HeightRequest="150" WidthRequest="150" Margin="0,20,0,0" Rotation="0" Opacity="2"/>
+                                </Grid>
+                            </Border>
+                            <Button WidthRequest="300" HeightRequest="300" CornerRadius="50" BackgroundColor="Transparent" Margin="0,0,0,0"/>
+
+                            <Label Text="Третьяков Петр Алексеевич" TextColor="White" FontFamily="Goth" FontSize="17" Margin="0,135,0,0" HorizontalTextAlignment="Center"/>
+                            <Label Text="IT-КВАНТУМ" TextColor="White" FontFamily="Goth" FontSize="20" Margin="0,270,0,0" HorizontalTextAlignment="Center" />
+                        </Grid>
+                    </Border>
+                </Grid>
+                <Grid>
+                    <Border HeightRequest="180" WidthRequest="160" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#127499" StrokeThickness="2" Stroke="White" Margin="200,0,0,0">
+                        <Grid>
+                            <Border HeightRequest="130" WidthRequest="130" Margin="0,-35,0,0" StrokeShape="RoundRectangle 20,20,20,20"  BackgroundColor="Transparent" StrokeThickness="4" Stroke="White">
+
+                                <Grid>
+                                    <!--Изображения -->
+                                    <Image Source="rtlq.jpg" HeightRequest="150" WidthRequest="150" Margin="0,20,0,0" Rotation="0" Opacity="2"/>
+                                </Grid>
+                            </Border>
+                            <Button WidthRequest="300" HeightRequest="300" CornerRadius="50" BackgroundColor="Transparent" Margin="0,0,0,0"/>
+
+                            <Label Text="Никитин Дмитрий Игоревич" TextColor="White" FontFamily="Goth" FontSize="17" Margin="0,135,0,0" HorizontalTextAlignment="Center"/>
+                            <Label Text="IT-КВАНТУМ" TextColor="White" FontFamily="Goth" FontSize="20" Margin="0,270,0,0" HorizontalTextAlignment="Center" />
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Border>
+
+
+        <Border HeightRequest="300" WidthRequest="450" Margin="550,370,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="4">
+            <Image Source="raspisanieit.png" Aspect="Fill"/>
+        </Border>
+
+
+
+        <Grid Margin="-895,-560,0,0">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#242984" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent" StrokeThickness="2" Stroke="White" Opacity="0.9">
+                    <Grid>
+                        <!--Изображения-->
+
+                        <Image Source="biologod.png" HeightRequest="70" WidthRequest="70" Margin="0,-60,-40,0" Rotation="30"/>
+                        <Image Source="vrlogod.png" HeightRequest="60" WidthRequest="60" Margin="0,40,-50,0" Rotation="70"/>
+                        <Image Source="medialogod.png" HeightRequest="70" WidthRequest="70" Margin="0,50,50,0" Rotation="30"/>
+                        <Image Source="itlogod.png" HeightRequest="70" WidthRequest="70" Margin="0,-50,50,0" Rotation="330"/>
+                        <Image Source="nanologod.png" HeightRequest="40" WidthRequest="40" Margin="10,0,130,10" Rotation="50"/>
+                        <Image Source="robologod.png" HeightRequest="55" WidthRequest="55" Margin="0,110,180,0" Rotation="70"/>
+                        <Image Source="retu.png" HeightRequest="60" WidthRequest="60" Margin="0,0,0,0"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" BackgroundColor="Transparent" Margin="0,0,0,0" Clicked="Button_Clicked"/>
+        </Grid>
+
+
+        <!--Логотип на панели навигации-->
+        <Image Source="whitelogo.png" Margin="-895,570,0,0" HeightRequest="100" WidthRequest="100"/>
+
+
+
+    </Grid>
+</ContentPage>

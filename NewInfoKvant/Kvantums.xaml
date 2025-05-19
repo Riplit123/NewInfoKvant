@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewInfoKvant.Kvantums"
+             Title="Kvantums">
+    <Grid>
+
+        <Image Source="fonnews.jpg" WidthRequest="1350" Margin="0,0,0,0"/>
+        
+        <!--Панель навигации-->
+        <Border  BackgroundColor="DeepSkyBlue" WidthRequest="235" Stroke="DeepSkyBlue" Opacity="0.5" HeightRequest="800" Margin="-1000,0,0,0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="1,0"/>
+            </Border.Shadow>
+        </Border>
+
+
+        <!-- <ScrollView Orientation="Vertical">-->
+        <Grid>
+                <!--IT-квантум-->
+                <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="-530,-490,0,0" Stroke="White" StrokeThickness="2">
+                    <Border.Shadow>
+                        <Shadow Brush="Black" Offset="0,0"/>
+                    </Border.Shadow>
+            <Grid>
+                <Label Text="IT-КВАНТУМ"  Margin="30,4,0,0" FontSize="22" FontFamily="Bank" TextColor="White"/>
+                    <Border  HeightRequest="130" WidthRequest="190" StrokeShape="RoundRectangle 15,15,15,15" Margin="-2,-45,0,0" Stroke="White" StrokeThickness="4">
+                        <Grid>
+                            <Image Source="itkv.jpg" Aspect="Fill"/>
+                        </Grid>
+                    </Border>
+                    <Label FontSize="17" Margin="11,154,0,0" TextColor="White" FontFamily="Goth" Text="- программирование 
+                       - web разработка 
+                       - web дизайн
+                       - мобильная разработка"/>
+            </Grid>
+        </Border> 
+        <Button HeightRequest="230" WidthRequest="210" Margin="-530,-490,0,0" BackgroundColor="Transparent" CornerRadius="15" Clicked="Button_Clicked_1"/>
+
+
+                <!--Биоквантум-->
+                <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="-90,-490,0,0" Stroke="White" StrokeThickness="2">
+                     <Border.Shadow>
+                         <Shadow Brush="Black" Offset="0,0"/>
+                     </Border.Shadow>
+            <Grid>
+                <Label Text="БИОКВАНТУМ"  Margin="30,4,0,0" FontSize="20" FontFamily="Bank" TextColor="White"/>
+                    <Border  HeightRequest="130" WidthRequest="190" StrokeShape="RoundRectangle 15,15,15,15" Margin="-2,-45,0,0" Stroke="White" StrokeThickness="4">
+                        <Grid>
+                            <Image Source="biokv.jpg" Aspect="Fill"/>
+                        </Grid>
+
+                    </Border>
+                    <Label FontSize="16" Margin="11,145,0,0" TextColor="White" FontFamily="Goth" Text="
+                       
+                        - исследование 
+                        - разработка
+                        - выращивание и селекция"/>
+            </Grid>
+        </Border>
+        <Button HeightRequest="230" WidthRequest="210" Margin="-530,-490,0,0" BackgroundColor="black" CornerRadius="15" Clicked="Button_Clicked_2"/>
+            
+            
+            <!--VR-Квантум-->
+                <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="350,-490,0,0" Stroke="White" StrokeThickness="2">
+                     <Border.Shadow>
+                        <Shadow Brush="Black" Offset="0,0"/>
+                    </Border.Shadow>
+                     <Grid>
+                      <Label Text="VR/AR-КВАНТУМ"  Margin="30,4,0,0" FontSize="17" FontFamily="Bank" TextColor="White"/>
+                    <Border  HeightRequest="130" WidthRequest="190" StrokeShape="RoundRectangle 15,15,15,15" Margin="-2,-45,0,0" Stroke="White" StrokeThickness="4">
+                        <Grid>
+                            <Image Source="vrkv.jng" Aspect="Fill"/>
+                        </Grid>
+
+                    </Border>
+                    <Label FontSize="17" Margin="11,145,0,0" TextColor="White" FontFamily="Goth" Text="
+                                
+                               - 3D моделирование
+                                - программирование
+                                - VR/AR разработка"/>
+
+                     </Grid>
+                 </Border>
+            <Button HeightRequest="230" WidthRequest="210" Margin="350,-490,0,0" BackgroundColor="Transparent" CornerRadius="15" Clicked="Button_Clicked_3"/>
+
+
+            <!--Нано-Квантум-->
+
+                <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="790,-490,0,0" Stroke="White" StrokeThickness="2">
+                   <Border.Shadow>
+                     <Shadow Brush="Black" Offset="0,0"/>
+                   </Border.Shadow>
+            <Grid>
+                        <Label Text="НАНОКВАНТУМ"   Margin="30,4,0,0"  FontSize="18" FontFamily="Bank" TextColor="White" />
+
+                    <Border  HeightRequest="130" WidthRequest="190" StrokeShape="RoundRectangle 15,15,15,15" Margin="-2,-45,0,0" Stroke="White" StrokeThickness="4">
+
+                        <Grid>
+                            <Image Source="nanokv.jpg" Aspect="Fill"/>
+                        </Grid>
+
+                    </Border>
+
+                    <Label FontSize="17" Margin="11,145,0,0" TextColor="White" FontFamily="Goth" Text="
+                        
+                        - современная инженерия
+                        - модифицирование
+                        - синтезирование"/>
+
+            </Grid>
+        </Border>
+
+
+                <!--ПромРобо-Квантум-->
+                <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="-530,-10,0,0" Stroke="White" StrokeThickness="2">
+                     <Border.Shadow>
+                         <Shadow Brush="Black" Offset="0,0"/>
+                     </Border.Shadow>
+            <Grid>
+                <Label Text="ПРОМРОБО"  Margin="30,4,0,0" FontSize="23" FontFamily="Bank" TextColor="White"/>
+                    <Border  HeightRequest="130" WidthRequest="190" StrokeShape="RoundRectangle 15,15,15,15" Margin="-2,-45,0,0" Stroke="White" StrokeThickness="4">
+                        <Grid>
+                            <Image Source="promrobokv.jpg" Aspect="Fill"/>
+                        </Grid>
+
+                    </Border>
+
+                    <Label FontSize="16" Margin="11,140,0,0" TextColor="White" FontFamily="Goth" Text="
+                        
+                        - специализированные алгоритмы
+                        - эксплуатация
+                        - аппаратное обеспечение"/>
+
+            </Grid>
+        </Border>
+
+                <!--Хайтек-->
+
+                <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="-90,-10,0,0" Stroke="White" StrokeThickness="2">
+                     <Border.Shadow>
+                         <Shadow Brush="Black" Offset="0,0"/>
+                     </Border.Shadow>
+                    <Grid>
+                        <Label Text="ХАЙТЕК"  Margin="50,3,0,0" FontSize="25" FontFamily="Bank" TextColor="White"/>
+                    <Border  HeightRequest="130" WidthRequest="190" StrokeShape="RoundRectangle 15,15,15,15" Margin="-2,-45,0,0" Stroke="White" StrokeThickness="4">
+                        <Grid>
+                            <Image Source="hitechkv.jpg" Aspect="Fill"/>
+                        </Grid>
+
+                    </Border>
+
+                    <Label FontSize="17" Margin="11,138,0,0" TextColor="White" FontFamily="Goth" Text="
+                                
+                               - прототипирование
+                               - моделирование
+                               - пайка
+                               - 3d печать"/>
+
+                    </Grid>
+                </Border>
+
+                <!--Медиа-Квантум-->
+
+                <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="350,-10,0,0" Stroke="White" StrokeThickness="2">
+                     <Border.Shadow>
+                         <Shadow Brush="Black" Offset="0,0"/>
+                     </Border.Shadow>
+                    <Grid>
+                        <Label Text="МЕДИАКВАНТУМ"  Margin="30,7,0,0" FontSize="16" FontFamily="Bank" TextColor="White"/>
+                    <Border  HeightRequest="130" WidthRequest="190" StrokeShape="RoundRectangle 15,15,15,15" Margin="-2,-45,0,0" Stroke="White" StrokeThickness="4">
+                        <Grid>
+                            <Image Source="mediakv.jpg" Aspect="Fill"/>
+                        </Grid>
+
+                    </Border>
+
+                    <Label FontSize="17" Margin="11,145,0,0" TextColor="White" FontFamily="Goth" Text="
+                               
+                               - написание текстов
+                                - создание фото
+                                - видеомонтаж"/>
+
+                    </Grid>
+                </Border>
+
+                <!--Квантошахматы-->
+
+                <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="790,-10,0,0" Stroke="White" StrokeThickness="2">
+                     <Border.Shadow>
+                         <Shadow Brush="Black" Offset="0,0"/>
+                     </Border.Shadow>
+                    <Grid>
+                        <Label Text="КВАНТОШАХМАТЫ"  Margin="30,6,0,0" FontSize="15" FontFamily="Bank" TextColor="White"/>
+                    <Border  HeightRequest="130" WidthRequest="190" StrokeShape="RoundRectangle 15,15,15,15" Margin="-2,-45,0,0" Stroke="White" StrokeThickness="4">
+                        <Grid>
+                            <Image Source="chesskv.jpg" Aspect="Fill"/>
+                        </Grid>
+
+                    </Border>
+
+                    <Label FontSize="17" Margin="11,145,0,0" TextColor="White" FontFamily="Goth" Text="
+                               
+                               - игровая деятельность
+                               - основы шахмат
+                               - история развития игры"/>
+
+                    </Grid>
+                </Border>
+
+                <!--Английский-->
+
+                <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="-90,480,0,0" Stroke="White" StrokeThickness="2">
+                     <Border.Shadow>
+                         <Shadow Brush="Black" Offset="0,0"/>
+                     </Border.Shadow>
+                    <Grid>
+                        <Label Text="АНГЛИЙСКИЙ ЯЗЫК"  Margin="30,5,0,0" FontSize="17" FontFamily="Goth" TextColor="White"/>
+                        <Border  HeightRequest="130" WidthRequest="190" StrokeShape="RoundRectangle 15,15,15,15" Margin="-2,-45,0,0" Stroke="White" StrokeThickness="4">
+                            <Grid>
+                                <Image Source="engkv.jpg" Aspect="Fill"/>
+                            </Grid>
+
+                        </Border>
+
+                        <Label FontSize="15" Margin="11,145,0,0" TextColor="White" FontFamily="Goth" Text="
+                               
+                               - коммуникативная методика изучения
+                               - проектная деятельность и исследования
+                               - развитие спонтанной речи"/>
+
+                    </Grid>
+                </Border>
+
+                <!--Математика-->
+
+                <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="350,480,0,0" Stroke="White" StrokeThickness="2">
+                    <Border.Shadow>
+                        <Shadow Brush="Black" Offset="0,0"/>
+                    </Border.Shadow>
+                    <Grid>
+                        <Label Text="МАТЕМАТИКА"  Margin="43,5,0,0" FontSize="20" FontFamily="Goth" TextColor="White"/>
+                        <Border  HeightRequest="130" WidthRequest="190" StrokeShape="RoundRectangle 15,15,15,15" Margin="-2,-45,0,0" Stroke="White" StrokeThickness="4">
+                            <Grid>
+                                <Image Source="mathkv.jpg" Aspect="Fill"/>
+                            </Grid>
+
+                        </Border>
+
+                        <Label FontSize="15" Margin="11,145,0,0" TextColor="White" FontFamily="Goth" Text="
+                               
+                               - задачи прикладной направленности
+                               - математическое моделирование"/>
+
+                    </Grid>
+                </Border>
+            </Grid>
+
+
+
+        <!-- </ScrollView>-->
+
+        <Grid Margin="-895,-560,0,0">
+            <Border HeightRequest="120" WidthRequest="120" StrokeShape="RoundRectangle 20,20,20,20" Opacity="0.8" BackgroundColor="#242984" StrokeThickness="1.5" Stroke="White">
+                <Border HeightRequest="100" WidthRequest="100" Margin="0,0,0,10" StrokeShape="RoundRectangle 20,20,20,20" BackgroundColor="Transparent" StrokeThickness="2" Stroke="White" Opacity="0.9">
+                    <Grid>
+                        <!--Изображения-->
+                        <Image Source="biologod.png" HeightRequest="70" WidthRequest="70" Margin="0,-60,-40,0" Rotation="30"/>
+                        <Image Source="vrlogod.png" HeightRequest="60" WidthRequest="60" Margin="0,40,-50,0" Rotation="70"/>
+                        <Image Source="medialogod.png" HeightRequest="70" WidthRequest="70" Margin="0,50,50,0" Rotation="30"/>
+                        <Image Source="itlogod.png" HeightRequest="70" WidthRequest="70" Margin="0,-50,50,0" Rotation="330"/>
+                        <Image Source="nanologod.png" HeightRequest="40" WidthRequest="40" Margin="10,0,130,10" Rotation="50"/>
+                        <Image Source="robologod.png" HeightRequest="55" WidthRequest="55" Margin="0,110,180,0" Rotation="70"/>
+                    </Grid>
+                </Border>
+            </Border>
+            <Button HeightRequest="120" WidthRequest="120" CornerRadius="25" BackgroundColor="Transparent" Margin="0,0,0,0" Clicked="Button_Clicked"/>
+        </Grid>
+
+
+        <!--Логотип на панели навигации-->
+        <Image Source="whitelogo.png" Margin="-895,570,0,0" HeightRequest="100" WidthRequest="100"/>
+
+    </Grid>
+
+</ContentPage>
